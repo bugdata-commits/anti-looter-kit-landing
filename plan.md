@@ -21,3 +21,8 @@ The top banner includes a daily page-refresh countdown to create a clear reason 
 ## Direct-response refinement
 
 The secondary hero action now links directly to the affiliate offer instead of scrolling to a page section. The hero uses the supplied artwork as a full-bleed background with a dark readability overlay, the first screen carries more of the narrative, and a mobile-only sticky offer CTA reduces scroll friction. Curiosity copy stays grounded in the actual offer and does not use fabricated scarcity.
+
+
+## Performance pass
+
+The supplied hero image is served as a 1440px-wide WebP at approximately 128 KB instead of a 2.3 MB PNG. The hero is preloaded as a high-priority image, the existing script remains deferred and lightweight, and root/public assets stay synchronized for both Preview and GitHub Pages.

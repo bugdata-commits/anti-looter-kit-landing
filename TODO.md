@@ -12,3 +12,5 @@
 - [x] **Transparent urgency banner:** Add a responsive daily page-refresh countdown with a page-only timer note and a direct live-offer CTA; do not imply fabricated stock or merchant deadlines.
 
 - [x] **Direct-response refinement:** Route “See what’s included” directly to the affiliate offer, use the supplied image as the hero background, reduce first-screen scroll friction, and add a mobile-only persistent offer CTA without fabricated scarcity.
+
+- [x] **Fast-loading pass:** Convert the hero artwork to an optimized 1440px WebP, preload it on the critical path, remove redundant PNG copies, and keep the root/public assets synchronized.

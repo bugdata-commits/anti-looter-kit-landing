@@ -16,3 +16,8 @@ Core principles are clarity, confidence, action, and restraint. The layout uses 
 ## Conversion layer
 
 The top banner includes a daily page-refresh countdown to create a clear reason to review the live offer now. It is labeled as a page-only timer and explicitly states that the merchant controls live pricing and terms; it does not claim false inventory or a merchant-set deadline.
+
+
+## Direct-response refinement
+
+The secondary hero action now links directly to the affiliate offer instead of scrolling to a page section. The hero uses the supplied artwork as a full-bleed background with a dark readability overlay, the first screen carries more of the narrative, and a mobile-only sticky offer CTA reduces scroll friction. Curiosity copy stays grounded in the actual offer and does not use fabricated scarcity.

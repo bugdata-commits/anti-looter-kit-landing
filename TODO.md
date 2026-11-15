@@ -10,3 +10,5 @@
 - [x] **GitHub Pages compatibility:** Mirror root entry files and use relative asset URLs so the public GitHub Pages URL loads correctly.
 
 - [x] **Transparent urgency banner:** Add a responsive daily page-refresh countdown with a page-only timer note and a direct live-offer CTA; do not imply fabricated stock or merchant deadlines.
+
+- [x] **Direct-response refinement:** Route “See what’s included” directly to the affiliate offer, use the supplied image as the hero background, reduce first-screen scroll friction, and add a mobile-only persistent offer CTA without fabricated scarcity.

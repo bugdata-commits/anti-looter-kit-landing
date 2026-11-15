@@ -8,3 +8,5 @@
 - [x] **Offer section:** Show the stated $149 one-time reference offer versus $299 regular price with merchant-controlled pricing and availability disclaimer.
 - [x] **Trust and disclosure:** Keep the stated guarantee and affiliate disclosure clear while avoiding unsupported claims or fear-heavy messaging.
 - [x] **GitHub Pages compatibility:** Mirror root entry files and use relative asset URLs so the public GitHub Pages URL loads correctly.
+
+- [x] **Transparent urgency banner:** Add a responsive daily page-refresh countdown with a page-only timer note and a direct live-offer CTA; do not imply fabricated stock or merchant deadlines.

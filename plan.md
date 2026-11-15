@@ -11,3 +11,8 @@ The content is intentionally simplified: campaign-style hero, compact feature st
 The supplied reference image establishes the visual direction: dark navy campaign interface, electric blue and cyan accents, bright yellow CTA actions, bold condensed-feeling headlines, simple top navigation, strong hero image, icon-led feature strip, and a compact conversion path. The supplied image is reused as the hero visual source and is cropped to show the prepared safety scene without duplicating the image’s embedded copy.
 
 Core principles are clarity, confidence, action, and restraint. The layout uses a bold two-column hero, high-contrast CTA hierarchy, compact sections, and repeated shield/check/arrow motifs. Typography pairs Outfit for large campaign headlines with Inter for readable body copy. Navy communicates security and seriousness, blue communicates capability, and yellow is reserved for action and readiness cues. Motion is limited to gentle reveal transitions and button lift; reduced-motion preferences are respected.
+
+
+## Conversion layer
+
+The top banner includes a daily page-refresh countdown to create a clear reason to review the live offer now. It is labeled as a page-only timer and explicitly states that the merchant controls live pricing and terms; it does not claim false inventory or a merchant-set deadline.

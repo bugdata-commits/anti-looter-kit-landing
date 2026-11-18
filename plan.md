@@ -26,3 +26,7 @@ The secondary hero action now links directly to the affiliate offer instead of s
 ## Performance pass
 
 The supplied hero image is served as a 1440px-wide WebP at approximately 128 KB instead of a 2.3 MB PNG. The hero is preloaded as a high-priority image, the existing script remains deferred and lightweight, and root/public assets stay synchronized for both Preview and GitHub Pages.
+
+## Companion trading-indicator offer page
+
+Add a second static page at `/forexbee-indicator.html`, linked discreetly from the existing home page and covered in the route manifest. Keep the original Anti-Looter Kit page intact. Use the same dark navy/cyan/yellow family with a distinct chart-led layout. Draw an original schematic chart inline and label it illustrative, not live market data. Use the user's Digistore24 link for every purchase CTA with sponsored/no-follow attributes. Describe only the seller-listed indicator, alerts, educational resources, community, and price plans ($49 monthly, $89 quarterly, $299 annually) as current merchant-page information; prompt users to confirm live terms at checkout. Include plain-language trading-risk and affiliate disclosures, and avoid profit guarantees, earnings promises, fabricated testimonials, or investment advice.

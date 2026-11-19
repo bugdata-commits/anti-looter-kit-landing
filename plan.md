@@ -1,36 +1,23 @@
-# Anti-Looter Kit Landing Page Plan
+# ValueNest Affiliate Site Plan
 
-## Implementation
+## Site structure
 
-Build a single static, responsive landing page for the Anti-Looter Kit affiliate offer. The page has no accounts, checkout, forms, or data collection. All primary CTAs use `https://www.antilooter-kit.com/main#aff=bugdata24` with sponsored/no-follow attributes. The root page, styles, script, route manifest, and supplied hero reference image are mirrored in both the project `public/` directory and the GitHub Pages root so the managed Preview and public GitHub Pages URL remain compatible.
+The root page (`/`) is the ValueNest catalog, not an individual product landing page. It introduces ValueNest and prominently lists the current offers: ForexBee’s Supply & Demand TradingView indicator at `/forex`, and the Anti-Looter Kit at `/anti-looter-kit.html`. Each card links to its own offer overview. New affiliate products can be added as additional cards and product pages without making the homepage exclusive to one merchant.
 
-The content is intentionally simplified: campaign-style hero, compact feature strip, six-card included-tools section, three-step setup section, current offer card, practical trust section, final CTA, and affiliate disclosure. Claims stay within the reference offer: the named devices and guides, the stated $149 one-time price versus $299 regular price, and the stated 60-day guarantee. The merchant controls current pricing, availability, shipping, refund eligibility, and support.
+## Shared brand
 
-## Design
+Use the supplied ValueNest.life Affiliate Marketing artwork as the site-wide logo in the catalog, ForexBee offer page, and Anti-Looter Kit overview. The logo is cropped only to remove excess background around the full wordmark and nest/arrow emblem, optimized as WebP, and mirrored in the root and `public/` asset folders. ValueNest's core palette is charcoal, warm cream, and champagne gold; product offer pages may use supporting colors suited to their own imagery.
 
-The supplied reference image establishes the visual direction: dark navy campaign interface, electric blue and cyan accents, bright yellow CTA actions, bold condensed-feeling headlines, simple top navigation, strong hero image, icon-led feature strip, and a compact conversion path. The supplied image is reused as the hero visual source and is cropped to show the prepared safety scene without duplicating the image’s embedded copy.
+## Product information and trust
 
-Core principles are clarity, confidence, action, and restraint. The layout uses a bold two-column hero, high-contrast CTA hierarchy, compact sections, and repeated shield/check/arrow motifs. Typography pairs Outfit for large campaign headlines with Inter for readable body copy. Navy communicates security and seriousness, blue communicates capability, and yellow is reserved for action and readiness cues. Motion is limited to gentle reveal transitions and button lift; reduced-motion preferences are respected.
+The catalog uses concise, neutral product descriptions and routes shoppers to an offer overview before the merchant checkout. Offer pages explain seller-listed details and make clear that prices, availability, delivery, refunds, billing, and customer support are controlled by the merchant. Affiliate links are disclosed; links to sellers are marked sponsored/no-follow. Forex content includes a trading-risk warning and does not promise returns.
 
+Do not add a scarcity countdown without a real offer expiry date/time and timezone. Do not publish testimonials without genuine source copy and permission. Until those are provided, omit both elements rather than inventing urgency or customer experiences.
 
-## Conversion layer
+## Visual direction
 
-The top banner includes a daily page-refresh countdown to create a clear reason to review the live offer now. It is labeled as a page-only timer and explicitly states that the merchant controls live pricing and terms; it does not claim false inventory or a merchant-set deadline.
+The ValueNest homepage uses the supplied gold logo with a charcoal-black and champagne palette. The ForexBee page retains its own dark navy layout and user-supplied bull/market hero image, with gold and electric-blue accents; the original Anti-Looter Kit page preserves its existing product-specific artwork and layout while using the shared ValueNest logo.
 
+## Technical delivery
 
-## Direct-response refinement
-
-The secondary hero action now links directly to the affiliate offer instead of scrolling to a page section. The hero uses the supplied artwork as a full-bleed background with a dark readability overlay, the first screen carries more of the narrative, and a mobile-only sticky offer CTA reduces scroll friction. Curiosity copy stays grounded in the actual offer and does not use fabricated scarcity.
-
-
-## Performance pass
-
-The supplied hero image is served as a 1440px-wide WebP at approximately 128 KB instead of a 2.3 MB PNG. The hero is preloaded as a high-priority image, the existing script remains deferred and lightweight, and root/public assets stay synchronized for both Preview and GitHub Pages.
-
-## Companion trading-indicator offer page
-
-Add a second static page at `/forexbee-indicator.html`, linked discreetly from the existing home page and covered in the route manifest. Keep the original Anti-Looter Kit page intact. Use the same dark navy/cyan/yellow family with a distinct chart-led layout. Draw an original schematic chart inline and label it illustrative, not live market data. Use the user's Digistore24 link for every purchase CTA with sponsored/no-follow attributes. Describe only the seller-listed indicator, alerts, educational resources, community, and price plans ($49 monthly, $89 quarterly, $299 annually) as current merchant-page information; prompt users to confirm live terms at checkout. Include plain-language trading-risk and affiliate disclosures, and avoid profit guarantees, earnings promises, fabricated testimonials, or investment advice.
-
-## Hero image and palette update
-
-Use the user's supplied bull-and-market artwork as a responsive, darkened hero background on the `/forex` offer page. Preserve legibility with navy gradient overlays; use gold for primary accents and blue for supporting chart/zone accents, matching the supplied artwork. Optimize the image to WebP without cropping or altering its content and mirror assets/styles/pages in the root and public directories.
+Keep the project as static GitHub Pages-compatible HTML/CSS with no account, checkout, or data collection features. Maintain the existing custom domain `www.valuenest.life`, preserve product URLs, and mirror the root page/assets/styles and route manifest into `public/` where applicable. The short extensionless Forex offer URL remains `/forex`.

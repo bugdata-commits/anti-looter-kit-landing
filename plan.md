@@ -30,3 +30,7 @@ The supplied hero image is served as a 1440px-wide WebP at approximately 128 KB 
 ## Companion trading-indicator offer page
 
 Add a second static page at `/forexbee-indicator.html`, linked discreetly from the existing home page and covered in the route manifest. Keep the original Anti-Looter Kit page intact. Use the same dark navy/cyan/yellow family with a distinct chart-led layout. Draw an original schematic chart inline and label it illustrative, not live market data. Use the user's Digistore24 link for every purchase CTA with sponsored/no-follow attributes. Describe only the seller-listed indicator, alerts, educational resources, community, and price plans ($49 monthly, $89 quarterly, $299 annually) as current merchant-page information; prompt users to confirm live terms at checkout. Include plain-language trading-risk and affiliate disclosures, and avoid profit guarantees, earnings promises, fabricated testimonials, or investment advice.
+
+## Hero image and palette update
+
+Use the user's supplied bull-and-market artwork as a responsive, darkened hero background on the `/forex` offer page. Preserve legibility with navy gradient overlays; use gold for primary accents and blue for supporting chart/zone accents, matching the supplied artwork. Optimize the image to WebP without cropping or altering its content and mirror assets/styles/pages in the root and public directories.
